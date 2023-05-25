@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:arial;
+    background-color:#333;
+}
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    height: 70px;
+    background-color: #84FF90;
+    align-items: center;
+    position: relative;
+    margin-bottom:20px;
+}
+.logo{
+    width:50px;
+    display: block;
+    margin-left:0px;
+     
+}
+.menu{ 
+        
+}
+.item-menu{
+    padding: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color:#000;
+    font-weight: 700;
+    font-size: 16px;
+    transition:all ease .4s;
+}
+.item-menu:hover{
+    padding: 10px;
+    background-color: #000;
+    color:#FFF;
+    border-radius: 10px;
+
+}   
+/*
+Usei a classe 'selecionada' para colocar o fundo de outra cor em apenas uma
+*/
+.selecionada{
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.conteudo{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh
+}
+.escrita{
+    color:#ffff;
+    padding: 0 10px;
+    margin:30px 0 30px 50px;
+    display:block;
+    justify-content:flex-start;
+}
+.escrita h1{
+    font-size:5rem;
+    margin-bottom:0px;
+}
+.escrita h2 {
+    font-size: 2rem;
+}
+.escrita p {
+    font-size: 1.5rem;
+    width: 60%;
+}
+.escrita button{
+    border:none;
+    padding: 15px 0;
+    margin:25px 25px;
+    width:30em;
+    height: 5em;
+    border-radius:8px;
+    background-color:#00ff6a;
+    font-size:12px;
+    font-weight:750;
+    text-transform:uppercase;
+    color:#000000;
+    cursor:pointer;
+    box-shadow:0px 10px 40px -12px #00ff8052;
+}
+
+.escrita button a{
+    text-decoration:none;
+    color:#000;
+    
+}
+.imagem{
+    width:500px;
+    height:;
+    margin-top: auto;
+    margin-right: 100px;
+}

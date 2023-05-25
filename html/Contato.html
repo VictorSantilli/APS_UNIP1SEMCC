@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/contato.css">
+    <title>Contato </title>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="../../imagens/nav/icons8-greentech-80.png" alt="Logo, imagem de uma lampada com uma planta dentro">
+        <div class="menu">
+            <a href="Home.html" class="item-menu">Home</a>
+            <a href="Projetos.html" class="item-menu">Projeto</a>
+            <a href="solucao.html" class="item-menu" >Solução</a>
+            <a href="SobreNos.html" class="item-menu">Sobre nós</a>
+            <a href="Contato.html" class="item-menu selecionada">Contato</a>
+        </div>
+    </nav>
+    <main id="principal">
+        <section class="secao-principal">
+            <section class="escrita">
+                <h2> Obrigado por ter visitado nosso site!!</h2>
+                <p>Aqui temos nossos meios de contato, caso queira mandar alguma mensagem.</p>
+                <h3> Nossas redes sociais:</h3>
+                <div class="sociais">
+                    <a href="https://www.instagram.com/energy_cast/" target="_blank" class="link-" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@energycast" target="_blank" class="link-" id="youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </section> 
+                <section class="secao-form">
+                    <form action="https://api.staticforms.xyz/submit" method="post" class="formulario">
+                        <h1>Contato</h1>
+                        <input type="text" name="name" placeholder="Digite o seu nome" autocomplete="off" required>    
+                        <br>  
+                        <input type="email" name="email" placeholder="Digite o seu email" autocomplete="off" required>
+                        <br>
+                        <textarea name="message" cols="22" rows="2" placeholder="Digite a sua mensagem" required></textarea>
+                        <br>
+                        <button type="submit" class="btn">Enviar</button>
+
+                        <input type="hidden" name="accessKey" value="dd052665-e015-47b5-b392-dfe8016dede3">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+                    </form>
+                </section>
+        </section>
+    </main>

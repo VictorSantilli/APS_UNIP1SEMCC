@@ -1,0 +1,159 @@
+  * {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #333;
+    
+}
+/* menu de navegação*/
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    height: 70px;
+    background-color: #84FF90;
+    align-items: center;
+    position: relative;
+    margin-bottom:20px;
+}
+.logo{
+    width:50px;
+    display: block;
+    margin-left:0px;
+     
+}
+
+.item-menu{
+    padding: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color:#000;
+    font-weight: 700;
+    font-size: 16px;
+}
+.item-menu:hover{
+    padding: 10px;
+    background-color: #000;
+    color:#FFF;
+    border-radius: 10px;
+}   
+/*
+Usei a classe 'selecionada' para colocar o fundo de outra cor em apenas uma
+*/
+.selecionada{
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+/* Conteudo da pagina*/
+main{
+    
+    height: 100%;
+    width:60%;
+    background-color: #E4E2E2;
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.5);
+}
+.titulo{
+    text-align: center;
+    
+}
+
+.rodape{
+    background-color: #84FF90;
+    height: 30px;
+}
+
+
+/* Pag soluções*/
+/*Cards*/
+.conteudoPagSolucao{
+    width: 100%;
+}
+.card{
+    
+    height: 800px;
+    background-color: #84FF90;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    
+    
+}
+.imagem{
+    width: 300px;
+    height: 300px;
+    background-color: #FFF;
+    border-radius:10px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border: 5px #FFF solid;
+    
+}
+.descricao{
+    font-size:18px;
+    text-indent: 2.5rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin: 10px 40px;
+
+}
+
+/* -> Fim do edit da pag soluções*/
+
+
+/*Pag sobre nos*/
+
+.conteudo{
+    margin: 30px;
+    
+    
+}
+.subtitulo{
+    text-align: center;
+}
+.paragrafoSobreNos{
+    margin-top: 20px;
+    text-indent: 40px;
+    font-size:1.2rem;
+    text-align: justify;
+    line-height: 1.5em;
+    
+    
+} 
+.pessoa{
+    margin-top: 15px;
+    clear: both;
+    height: 200px;
+    
+}
+.imgPessoa{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;;
+    border: 2px solid black;
+    
+}
+.dadosPessoa{
+    padding-top:20px;
+    line-height: 1.5em;
+    font-size: 1.2rem;
+}
+/*Fim edit pag sobre nos*/
+
+
+
+    
+
+
